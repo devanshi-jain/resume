@@ -1,0 +1,260 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{fontawesome5}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{graphicx}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\RequirePackage{tikz}
+\RequirePackage{xcolor}
+\RequirePackage{fontawesome5}
+\usepackage{tikz}
+\usetikzlibrary{svg.path}
+
+
+\definecolor{cvblue}{HTML}{0E5484}
+\definecolor{black}{HTML}{130810}
+\definecolor{darkcolor}{HTML}{0F4539}
+\definecolor{cvgreen}{HTML}{3BD80D}
+\definecolor{taggreen}{HTML}{00E278}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{name}{black}
+\colorlet{tagline}{darkcolor}
+\colorlet{heading}{darkcolor}
+\colorlet{headingrule}{cvblue}
+\colorlet{accent}{darkcolor}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+% \pagestyle{fancy}
+% \fancyhf{}  % clear all header and footer fields
+% \fancyfoot{}
+% \renewcommand{\headrulewidth}{0pt}
+% \renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generated PDF is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\large#1} & \textbf{\small #2} \\
+      \textit{\large#3} & \textit{\small #4} \\
+      
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+\newcommand\sbullet[1][.5]{\mathbin{\vcenter{\hbox{\scalebox{#1}{$\bullet$}}}}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+
+% \begin{center}
+%     {\Huge \textbf{Devanshi Jain}} \\
+%     \vspace{1pt}
+    
+%     % San Diego,California \\ \vspace{1pt}
+%     \small \href{tel:+1(858)214-4291}{\raisebox{-0.1\height}\faPhone\ {(858)214-4291} ~} 
+%     \href{mailto:djain@ucsd.edu}{\raisebox{-0.2\height}\faEnvelope\  \underline{djain@ucsd.edu} ~} 
+%     \href{https://linkedin.com/in/djain18}{\raisebox{-0.2\height}{\faLinkedin}\ \underline{djain18} ~}
+%     \href{https://github.com/devanshi-jain}{\raisebox{-0.2\height}\faGithub\ \underline{devanshi-jain} ~}
+%     % \small {San Diego, California}
+%     {\raisebox{-0.2\height}\faMapMarker\  {San Diego, CA}} ~ 
+%     % \href{https://linkedin.com/in/djain18}
+%     \vspace{-8pt}
+% \end{center}
+
+{\Huge \textbf{Devanshi Jain}} \\
+\vspace{1pt}
+
+\begin{center}
+    \small 
+    \href{tel:+1(858)214-4291}{\faPhone\ {(858)214-4291} ~} 
+    \href{mailto:djain@ucsd.edu}{\faEnvelope\  \underline{djain@ucsd.edu} ~} 
+    \href{https://linkedin.com/in/djain18}{\faLinkedin\ \underline{djain18} ~}
+    \href{https://github.com/devanshi-jain}{\faGithub\ \underline{devanshi-jain} ~}
+    {\faMapMarker\  {San Diego, CA}} ~ 
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{EDUCATION}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of California, San Diego - \textit{\textbf{Junior}}}{2021 -- 2024}
+      {Bachelor of Science - \textbf{Mathematics \& Computer Science}}{GPA: 3.4}
+  \resumeSubHeadingListEnd
+  
+%-----------PROJECTS-----------
+\section{EXPERIENCE}
+\vspace{5pt}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Software Engineering Intern : Distributed Energy Resources Connect}{Oct 2022 -- Present}
+    {\underline{}}{\vspace{-15pt}}
+    \resumeItemListStart
+      \resumeItem{Developed and implemented efficient algorithms for plug load controller scheduling, resulting in
+      \textbf{improved energy optimization} and reduced operational costs.}
+      \resumeItem{\textbf{Collaborated with a cross-functional team} to integrate optimization algorithms into the existing testbenches, ensuring seamless functionality and compatibility.}
+      \resumeItem{\textbf{Conducted comprehensive data analysis} of energy consumption patterns using InfluxDB and presented key insights to stakeholders, enabling data-driven decision-making.}
+      \resumeItem{\textbf{Contributed to the design and implementation} of a user-friendly interface for the plug load controller scheduler, enhancing usability and accessibility for end-users.}
+      \resumeItem{\textbf{Participated in regular code reviews and quality assurance activities}, ensuring code quality, identifying bugs, and implementing necessary fixes for optimal performance.}
+      \resumeItem{\textbf{Collaborated with the data visualization team} to create informative and visually appealing heatmaps, aiding in the identification of energy consumption trends and patterns.}
+      \resumeItem{\textbf{Demonstrated strong problem-solving skills} by resolving technical issues and optimizing the performance of the plug load controllers, contributing to a more reliable and efficient system.}
+    \resumeItemListEnd
+  \vspace{-7pt}
+
+  \resumeSubheading{Embedded Systems Engineer : Triton Robosub}{Nov 2021 -- Present}
+    % {\underline{}}{\vspace{-15pt}}
+    \resumeItemListStart
+      \resumeItem{\textbf{Passion for marine robotics} and a strong background in the development and deployment of \underline{autonomous underwater vehicles}.}
+      \resumeItem{Scripted signal processing algorithms including extraction algorithms such as for \underline{peak detection using cumulative probability}, resulting in improved accuracy and robustness of signal analysis.}
+      \resumeItem{Implemented algorithms for direction finding in a hardware-efficient manner on an FPGA. Utilized Xilinx IP to initiate AXI-Lite transactions in simulation to test and validate the implementation.}
+      \resumeItem{Integration of the MUSIC algorithm in Python into the control system of the AUV involved using Vivado to generate RTL for the FPGA by \underline{High-level synthesis} of the C script.}
+      \resumeItem{Designed and \underline{optimized the hydrophone array} system to accurately perceive the underwater environment.}
+    \resumeItemListEnd
+
+    \resumeSubheading{Research Assistant : Bioinspired Robotics and Design Lab}{Aug 2022 -- Sept 2022}
+    {\underline{}}{\vspace{-15pt}}
+    \resumeItemListStart
+      \resumeItem{Worked as part of a team on an aquatic soft robotics project to develop a cephalopod-inspired robot capable of cyclic jet propulsion using directional control valves, microcontrollers, and air compressors for shape change.}
+    \resumeItemListEnd
+
+  \resumeSubheading
+  {Teaching Assistant : COSMOS Hacking for Oceans}{Jun 2022 -- Jul 2022}
+  {\underline{}}{\vspace{-15pt}}
+    \resumeItemListStart
+      umeItem{Assisted course instructor in teaching students ways to build an autoboat with a buoy, how to monitor, generate and analyze collected sensor data, and use data visualization and analysis tools to present findings.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------PROGRAMMING SKILLS-----------
+\section{TECHNICAL SKILLS}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+    \textbf{\normalsize{Languages:}}{\normalsize{ SystemVerilog, Python, Java, C, C++, MATLAB, Julia, SageMath, HTML, CSS.}} \\
+    \textbf{\normalsize{Developer Tools:}}{\normalsize{ Xilinx Vivado, Visual Studio, Jupyter, OpenGL, Eclipse, LaTeX, Linux, Github, InfluxDB }} \\
+  }}
+\end{itemize}
+\vspace{-15pt}
+
+% %-----------MATH RESEARCH-----------
+% \section{RESEARCH \& MATH}
+% % Translational Surfaces
+% \resumeSubheading
+% {Independent Reading Groups}{}
+% {\underline{}}{}
+% \vspace{-15pt}
+% \resumeItemListStart
+% \resumeItem{\normalsize{\underline{Operator Algebra:} Studying Banach spaces, Hilbert spaces, and properties of bounded linear operators.}}
+% \resumeItem{\normalsize{\underline{Random Matrix Theory:} Studied Wigner Matrices \& Semicircle Law, convergence of moments in expectation.}}
+% \resumeItem{\normalsize{\underline{Translational Surfaces:} Studied unfolding of billiard tables, Euler characteristics, stratum, \& Veech surfaces.}}
+% \resumeItemListEnd
+
+%-----------CERTIFICATIONS---------------
+\section{AWARDS \& FELLOWSHIPS}
+\begin{multicols}{2}
+\begin{itemize}[itemsep=-2pt, parsep=5pt]
+  \item{Led a 3-part Putnam workshop series on number theory, combinatorics, and algebra - 2021}
+  \item{Mathematical Contest in Modeling (COMAP) - Analytic Measures' Github - 2022}
+  \item{{KVPY Fellow - Indian Institute of Science - 2019,20}}
+  \item{Code In Place - Stanford University - 2021}
+  \item{National Scholar - IIT Delhi - 2019}
+  \item{Regional Mathematics Olympiad - 2017,18,19,20}
+  \item{Ramanujan Society of Born Mathematics - 2016,20}
+  \item{South-East Asian Mathematics Olympiad - Bronze Medal - 2018}
+  \item{International Informatics Olympiad - Silver - 2018}
+\end{itemize}
+\end{multicols}
+\vspace*{2.0\multicolsep}
+\end{document}
