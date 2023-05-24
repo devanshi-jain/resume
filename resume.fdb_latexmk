@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1684903514 "c:/Users/mdsfl/Devanshi_Resume/resume.tex" "resume.pdf" "resume" 1684903516
+["pdflatex"] 1684903940 "c:/Users/mdsfl/Devanshi_Resume/resume.tex" "resume.pdf" "resume" 1684903941
   "C:/Users/mdsfl/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1684903055 83637 15e7234f7f0768b75cfac8317adcc5d1 ""
   "C:/Users/mdsfl/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1651706747 9769966 bc76cc46a857dd16b6f9d9f416dd113f ""
   "C:/Users/mdsfl/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1651500229 2920 d63721872b8c77041b88e51b8f7c291d ""
@@ -176,9 +176,9 @@
   "C:/Users/mdsfl/AppData/Local/Programs/MiKTeX/tex/latex/tools/verbatim.sty" 1636710260 7392 39729ae6a807e217edf1442cf8fab2c2 ""
   "C:/Users/mdsfl/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/mdsfl/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1636284872 56029 3f7889dab51d620aa43177c391b7b190 ""
-  "c:/Users/mdsfl/Devanshi_Resume/resume.tex" 1684903514 10777 8a78630a7ea8658e8eb491033f711e7d ""
-  "resume.aux" 1684903516 1210 3a3010661c22f1cc3491d65da8965c90 "pdflatex"
-  "resume.out" 1684903516 459 efd4175c839358f1111ddb75cde47aa0 "pdflatex"
+  "c:/Users/mdsfl/Devanshi_Resume/resume.tex" 1684903939 10807 5db27730789ce4e24a481ec4b39a3dad ""
+  "resume.aux" 1684903941 1210 3a3010661c22f1cc3491d65da8965c90 "pdflatex"
+  "resume.out" 1684903941 459 efd4175c839358f1111ddb75cde47aa0 "pdflatex"
   (generated)
   "resume.aux"
   "resume.log"
