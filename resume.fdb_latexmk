@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1684903957 "/Users/devanshijain/Documents/GitHub/resume/resume.tex" "resume.pdf" "resume" 1684903957 0
-  "/Users/devanshijain/Documents/GitHub/resume/resume.tex" 1684903956 10516 7481f38a11b4b841c7382c6ef1203ba9 ""
+["pdflatex"] 1684904035 "/Users/devanshijain/Documents/GitHub/resume/resume.tex" "resume.pdf" "resume" 1684904036 0
+  "/Users/devanshijain/Documents/GitHub/resume/resume.tex" 1684904033 10544 f6aae17df2f09f4120036f480f8d7d3f ""
   "/Users/devanshijain/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map" 1684354688 83973 1a9059377496baa80ec718340ea46b71 ""
   "/Users/devanshijain/Library/Application Support/MiKTeX/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt" 1683069170 23194846 35b64fc1df97f59943cefb8f4b1d2b87 ""
   "/Users/devanshijain/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1684354685 2920 d63721872b8c77041b88e51b8f7c291d ""
@@ -178,9 +178,9 @@
   "/Users/devanshijain/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/verbatim.sty" 1682477252 7392 f19cdc68ae9f1190dbd54eee6d29fb7c ""
   "/Users/devanshijain/Library/Application Support/MiKTeX/texmfs/install/tex/latex/url/url.sty" 1682477264 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "/Users/devanshijain/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xcolor/xcolor.sty" 1682477264 56148 51a9a8571c07b9921892ae11063ae853 ""
-  "resume.aux" 1684903957 1078 686922e28d126c2a3d7575ef82875b20 "pdflatex"
-  "resume.out" 1684903957 459 efd4175c839358f1111ddb75cde47aa0 "pdflatex"
-  "resume.tex" 1684903956 10516 7481f38a11b4b841c7382c6ef1203ba9 ""
+  "resume.aux" 1684904036 1078 686922e28d126c2a3d7575ef82875b20 "pdflatex"
+  "resume.out" 1684904036 459 efd4175c839358f1111ddb75cde47aa0 "pdflatex"
+  "resume.tex" 1684904033 10544 f6aae17df2f09f4120036f480f8d7d3f ""
   (generated)
   "resume.aux"
   "resume.log"
